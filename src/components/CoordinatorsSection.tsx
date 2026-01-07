@@ -1,15 +1,23 @@
 import { motion } from "framer-motion";
 import { AnimatedSection, StaggerContainer, StaggerItem } from "./AnimatedSection";
 import { Mail, Phone } from "lucide-react";
+import chairmanImage from "@/assets/chairman.png";
 import principalImage from "@/assets/principal.png";
 import vicePrincipalImage from "@/assets/vice-principal.png";
 import convener1Image from "@/assets/convener-1.png";
 import convener2Image from "@/assets/convener-2.png";
+import convener3Image from "@/assets/convener-3.png";
+import convener4Image from "@/assets/convener-4.png";
 import faculty1Image from "@/assets/faculty-1.png";
 import faculty2Image from "@/assets/faculty-2.png";
 import deanImage from "@/assets/dean.png";
 
 const management = [
+  {
+    name: "Adv. Dr. P. Krishna Das",
+    profession: "Managing Trustee",
+    image: chairmanImage,
+  },
   {
     name: "Dr. P. Krishna Kumar",
     profession: "CEO & Secretary",
@@ -17,7 +25,7 @@ const management = [
   },
   {
     name: "Dr. H. N. Nagaraja",
-    profession: "Executive director",
+    profession: "Executive Director",
     image: vicePrincipalImage,
   },
   {
@@ -31,7 +39,6 @@ const conveners = [
   {
     name: "Dr. S. Saraswathi",
     profession: "Head of Department - Computer Science and Data Science",
-    
     phone: "+91 98765 43210",
     image: convener1Image,
   },
@@ -41,12 +48,24 @@ const conveners = [
     phone: "+91 98765 43211",
     image: convener2Image,
   },
+  {
+    name: "Dr. N. Saranya",
+    profession: "Head of Department - AIML & IoT",
+    phone: "+91 9788956217",
+    image: convener3Image,
+  },
+  {
+    name: "Dr. J. Maria Shyla",
+    profession: "Head of Department - Information Technology",
+    phone: "+91 9787748348",
+    image: convener4Image,
+  },
 ];
 
 const facultyCoordinators = [
   {
     name: "Dr. R. Anitha",
-    profession: "Assistant Professor - Computer Science and Data science",
+    profession: "Assistant Professor - Computer Science and Data Science",
     phone: "+91 9159912712",
     image: faculty1Image,
   },
@@ -62,7 +81,6 @@ const coordinators = [
   {
     name: "Lavanya.B.P",
     role: "Student Coordinator",
-    email: "lavanya",
     phone: "+91 9361818449",
   },
   {
@@ -94,7 +112,7 @@ export const CoordinatorsSection = () => {
           </p>
         </AnimatedSection>
 
-        <StaggerContainer className="grid md:grid-cols-2 gap-6 max-w-2xl mx-auto mb-16">
+        <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-16">
           {management.map((member) => (
             <StaggerItem key={member.name}>
               <motion.div
@@ -138,7 +156,7 @@ export const CoordinatorsSection = () => {
           </p>
         </AnimatedSection>
 
-        <StaggerContainer className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto mb-16">
+        <StaggerContainer className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-16">
           {conveners.map((member) => (
             <StaggerItem key={member.name}>
               <motion.div
@@ -170,13 +188,9 @@ export const CoordinatorsSection = () => {
                 </h3>
                 <p className="text-primary text-sm mb-4">{member.profession}</p>
                 <div className="space-y-2 text-sm">
-                  <a
-                    href={`mailto:${member.email}`}
-                    className="flex items-center justify-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-                  >
+                  <div className="flex items-center justify-center gap-2 text-muted-foreground">
                     <Mail className="w-4 h-4" />
-                    <span className="truncate">{member.email}</span>
-                  </a>
+                  </div>
                   <a
                     href={`tel:${member.phone}`}
                     className="flex items-center justify-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
@@ -230,13 +244,9 @@ export const CoordinatorsSection = () => {
                 </h3>
                 <p className="text-primary text-sm mb-4">{member.profession}</p>
                 <div className="space-y-2 text-sm">
-                  <a
-                    href={`mailto:${member.email}`}
-                    className="flex items-center justify-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-                  >
+                  <div className="flex items-center justify-center gap-2 text-muted-foreground">
                     <Mail className="w-4 h-4" />
-                    <span className="truncate">{member.email}</span>
-                  </a>
+                  </div>
                   <a
                     href={`tel:${member.phone}`}
                     className="flex items-center justify-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
@@ -284,13 +294,9 @@ export const CoordinatorsSection = () => {
                 <p className="text-primary text-sm mb-4">{coordinator.role}</p>
 
                 <div className="space-y-2 text-sm">
-                  <a
-                    href={`mailto:${coordinator.email}`}
-                    className="flex items-center justify-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
-                  >
+                  <div className="flex items-center justify-center gap-2 text-muted-foreground">
                     <Mail className="w-4 h-4" />
-                    <span className="truncate">{coordinator.email}</span>
-                  </a>
+                  </div>
                   <a
                     href={`tel:${coordinator.phone}`}
                     className="flex items-center justify-center gap-2 text-muted-foreground hover:text-foreground transition-colors"

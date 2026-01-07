@@ -16,17 +16,17 @@ const problemStatements = [
     description: "Develop innovative solutions to improve healthcare accessibility and patient care using AI and IoT technologies.",
     icon: Lock,
     color: "from-rose-500 to-pink-600",
-    detailedContent: `**Problem Statement 1 — Digital Fraud Evidence Capture & Future Threat Database Gap**
+    detailedContent: `Problem Statement 1 — Digital Fraud Evidence Capture & Future Threat Database Gap
 
 Scams, phishing attacks, fraudulent links, fake calls, and digital deception are increasing, but there is no software that enables instant incident reporting, evidence capture, attack classification, origin tagging, and long-term threat database creation for future prevention.
 
-Goal:Build an app/web that logs incidents and stores evidence securely.
+Goal: Build an app/web that logs incidents and stores evidence securely.
 
 Expected Outcome: A future-usable cyber fraud threat index with evidence repository and classification.
 
 ---
 
-Problem Statement 2 — Personal Credential Sharing & Misuse-Risk Confidence Gap**
+Problem Statement 2 — Personal Credential Sharing & Misuse-Risk Confidence Gap
 
 Users share sensitive credentials and documents (ID proofs, OTPs, certificates, banking docs) through insecure channels, and lack a software system that provides encrypted sharing, access permission logs, expiry-based access, and a measurable misuse-risk confidence score for future safety decisions.
 
@@ -40,7 +40,7 @@ Expected Outcome: Safer credential exchange, permission history logs, and a meas
     description: "Create technology driven solutions to address conversations and automatically identify the emotions expressed by user.",
     icon: Leaf,
     color: "from-emerald-500 to-teal-600",
-    detailedContent: `**Problem Statement 1: Emotion Detection from Text in Online Conversations**
+    detailedContent: `Problem Statement 1: Emotion Detection from Text in Online Conversations
 
 Problem: Most online conversations like chat messages, feedback, and support chats are text-based and do not clearly show the user's emotions. Because of this, systems cannot understand whether a user is stressed, angry, sad, or happy. This leads to poor responses, delayed support, and missed early signs of emotional distress. There is also a lack of emotion-based text data for improving future systems.
 
@@ -50,7 +50,7 @@ Expected Outcome: Emotion-aware text analysis helps systems understand user emot
 
 ---
 
-Problem Statement 2: Digital Assistance for Daily Life Task Coordination**
+Problem Statement 2: Digital Assistance for Daily Life Task Coordination
 
 Problem: Individuals depend on multiple services and daily tasks like payments, appointments, bookings, documentation, education guidance, healthcare follow-ups, grievance status, and support requests — but lack a single conversational software bot that can plan tasks, generate tickets, track progress, and maintain history for future reference.
 
@@ -74,7 +74,7 @@ Expected Outcome: Improved financial awareness, better loan/savings planning, re
 
 ---
 
-Problem Statement 2: Local Market Price Volatility & Fair Value Negotiation Gap**
+Problem Statement 2: Local Market Price Volatility & Fair Value Negotiation Gap
 
 Problem: Sellers and producers face daily price changes and unfair value decisions because they lack a system to compare markets, evaluate quality-based pricing, and get a reasonable price range with negotiation support, leading to financial loss or undervalued sales. No decision-support pricing intelligence tool exists in software.
 
@@ -88,7 +88,7 @@ Expected Outcome: Better selling decisions, reduced undervaluation, smarter pric
     description: "Develop innovative solutions to improve healthcare accessibility and patient care using AI and IoT technologies.",
     icon: Globe,
     color: "from-amber-500 to-orange-600",
-    detailedContent: `**Problem Statement 1: Emergency Response & Hospital Readiness Coordination**
+    detailedContent: `Problem Statement 1: Emergency Response & Hospital Readiness Coordination
 
 Problem: During sudden medical emergencies, people struggle to identify nearby hospital readiness (bed/doctor availability), optimal arrival time, and fast pre-registration for immediate care, causing critical delays. There is no software system that enables real-time emergency coordination and hospital readiness visibility.
 
@@ -98,7 +98,7 @@ Expected Outcome: The system will reduce delays in emergency care by providing r
 
 ---
 
-Problem Statement 2: Crowd-Aware Blood Donation & Availability Coordination**
+Problem Statement 2: Crowd-Aware Blood Donation & Availability Coordination
 
 Problem: Blood banks and donation drives suffer from unpredictable donor turnout, mismatched blood availability, and poor visibility into upcoming shortages, causing emergency dependency on unplanned donors. A software system is needed for donor scheduling, blood availability visibility, and shortage-aware coordination.
 
