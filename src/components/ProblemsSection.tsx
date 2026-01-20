@@ -16,23 +16,23 @@ const problemStatements = [
     description: "Develop innovative solutions to improve healthcare accessibility and patient care using AI and IoT technologies.",
     icon: Lock,
     color: "from-rose-500 to-pink-600",
-    detailedContent: `**Problem Statement 1 — Digital Fraud Evidence Capture & Future Threat Database Gap**
+    detailedContent: `Problem Statement 1 — Digital Fraud Evidence Capture & Future Threat Database Gap
 
 Scams, phishing attacks, fraudulent links, fake calls, and digital deception are increasing, but there is no software that enables instant incident reporting, evidence capture, attack classification, origin tagging, and long-term threat database creation for future prevention.
 
-**Goal:** Build an app/web that logs incidents and stores evidence securely.
+Goal: Build an app/web that logs incidents and stores evidence securely.
 
-**Expected Outcome:** A future-usable cyber fraud threat index with evidence repository and classification.
+Expected Outcome: A future-usable cyber fraud threat index with evidence repository and classification.
 
 ---
 
-**Problem Statement 2 — Personal Credential Sharing & Misuse-Risk Confidence Gap**
+Problem Statement 2 — Personal Credential Sharing & Misuse-Risk Confidence Gap
 
 Users share sensitive credentials and documents (ID proofs, OTPs, certificates, banking docs) through insecure channels, and lack a software system that provides encrypted sharing, access permission logs, expiry-based access, and a measurable misuse-risk confidence score for future safety decisions.
 
-**Goal:** Build a software system for secure credential vault + controlled sharing + access tracking.
+Goal: Build a software system for secure credential vault + controlled sharing + access tracking.
 
-**Expected Outcome:** Safer credential exchange, permission history logs, and a measurable misuse-risk confidence model for future protection.`,
+Expected Outcome: Safer credential exchange, permission history logs, and a measurable misuse-risk confidence model for future protection.`,
   },
   {
     id: 2,
@@ -40,23 +40,23 @@ Users share sensitive credentials and documents (ID proofs, OTPs, certificates, 
     description: "Create technology driven solutions to address conversations and automatically identify the emotions expressed by user.",
     icon: Leaf,
     color: "from-emerald-500 to-teal-600",
-    detailedContent: `**Problem Statement 1: Emotion Detection from Text in Online Conversations**
+    detailedContent: `Problem Statement 1: Emotion Detection from Text in Online Conversations
 
-**Problem:** Most online conversations like chat messages, feedback, and support chats are text-based and do not clearly show the user's emotions. Because of this, systems cannot understand whether a user is stressed, angry, sad, or happy. This leads to poor responses, delayed support, and missed early signs of emotional distress. There is also a lack of emotion-based text data for improving future systems.
+Problem: Most online conversations like chat messages, feedback, and support chats are text-based and do not clearly show the user's emotions. Because of this, systems cannot understand whether a user is stressed, angry, sad, or happy. This leads to poor responses, delayed support, and missed early signs of emotional distress. There is also a lack of emotion-based text data for improving future systems.
 
-**Goal:** To build a system that can analyze text messages and automatically identify the user's emotions such as happiness, sadness, anger, stress, or urgency.
+Goal: To build a system that can analyze text messages and automatically identify the user's emotions such as happiness, sadness, anger, stress, or urgency.
 
-**Expected Outcome:** Emotion-aware text analysis helps systems understand user emotions, provide faster and better responses, detect stress early, and generate useful emotion-labeled data for future improvements.
+Expected Outcome: Emotion-aware text analysis helps systems understand user emotions, provide faster and better responses, detect stress early, and generate useful emotion-labeled data for future improvements.
 
 ---
 
-**Problem Statement 2: Digital Assistance for Daily Life Task Coordination**
+Problem Statement 2: Digital Assistance for Daily Life Task Coordination
 
-**Problem:** Individuals depend on multiple services and daily tasks like payments, appointments, bookings, documentation, education guidance, healthcare follow-ups, grievance status, and support requests — but lack a single conversational software bot that can plan tasks, generate tickets, track progress, and maintain history for future reference.
+Problem: Individuals depend on multiple services and daily tasks like payments, appointments, bookings, documentation, education guidance, healthcare follow-ups, grievance status, and support requests — but lack a single conversational software bot that can plan tasks, generate tickets, track progress, and maintain history for future reference.
 
-**Goal:** Build a web/mobile chatbot that acts as a personal assistant, coordinates tasks, stores history, and tracks progress via conversation.
+Goal: Build a web/mobile chatbot that acts as a personal assistant, coordinates tasks, stores history, and tracks progress via conversation.
 
-**Expected Outcome:** Faster task execution, organized request tracking, long-term usable conversation/request history, better user experience.`,
+Expected Outcome: Faster task execution, organized request tracking, long-term usable conversation/request history, better user experience.`,
   },
   {
     id: 3,
@@ -64,23 +64,23 @@ Users share sensitive credentials and documents (ID proofs, OTPs, certificates, 
     description: "Build solutions to improve financial awareness, digital inclusion, and fair market practices.",
     icon: Shield,
     color: "from-blue-500 to-indigo-600",
-    detailedContent: `**Problem Statement 1: Financial Awareness and Digital Inclusion Platform**
+    detailedContent: `Problem Statement 1: Financial Awareness and Digital Inclusion Platform
 
-**Problem:** In India, many citizens—especially in remote regions—lack financial awareness about credit, savings, and digital benefits, leading to loan rejection, poor planning, and dependency on intermediaries. A software solution is needed to improve financial decision clarity and inclusion.
+Problem: In India, many citizens—especially in remote regions—lack financial awareness about credit, savings, and digital benefits, leading to loan rejection, poor planning, and dependency on intermediaries. A software solution is needed to improve financial decision clarity and inclusion.
 
-**Goal:** Build a web/mobile platform that guides users in credit, savings, or digital finance planning.
+Goal: Build a web/mobile platform that guides users in credit, savings, or digital finance planning.
 
-**Expected Outcome:** Improved financial awareness, better loan/savings planning, reduced dependency on middlemen.
+Expected Outcome: Improved financial awareness, better loan/savings planning, reduced dependency on middlemen.
 
 ---
 
-**Problem Statement 2: Local Market Price Volatility & Fair Value Negotiation Gap**
+Problem Statement 2: Local Market Price Volatility & Fair Value Negotiation Gap
 
-**Problem:** Sellers and producers face daily price changes and unfair value decisions because they lack a system to compare markets, evaluate quality-based pricing, and get a reasonable price range with negotiation support, leading to financial loss or undervalued sales. No decision-support pricing intelligence tool exists in software.
+Problem: Sellers and producers face daily price changes and unfair value decisions because they lack a system to compare markets, evaluate quality-based pricing, and get a reasonable price range with negotiation support, leading to financial loss or undervalued sales. No decision-support pricing intelligence tool exists in software.
 
-**Goal:** Build a software platform (app/web) that provides fair-value price range, comparison, and negotiation assistance.
+Goal: Build a software platform (app/web) that provides fair-value price range, comparison, and negotiation assistance.
 
-**Expected Outcome:** Better selling decisions, reduced undervaluation, smarter price awareness, improved negotiation confidence.`,
+Expected Outcome: Better selling decisions, reduced undervaluation, smarter price awareness, improved negotiation confidence.`,
   },
   {
     id: 4,
@@ -88,23 +88,23 @@ Users share sensitive credentials and documents (ID proofs, OTPs, certificates, 
     description: "Develop innovative solutions to improve healthcare accessibility and patient care using AI and IoT technologies.",
     icon: Globe,
     color: "from-amber-500 to-orange-600",
-    detailedContent: `**Problem Statement 1: Emergency Response & Hospital Readiness Coordination**
+    detailedContent: `Problem Statement 1: Emergency Response & Hospital Readiness Coordination
 
-**Problem:** During sudden medical emergencies, people struggle to identify nearby hospital readiness (bed/doctor availability), optimal arrival time, and fast pre-registration for immediate care, causing critical delays. There is no software system that enables real-time emergency coordination and hospital readiness visibility.
+Problem: During sudden medical emergencies, people struggle to identify nearby hospital readiness (bed/doctor availability), optimal arrival time, and fast pre-registration for immediate care, causing critical delays. There is no software system that enables real-time emergency coordination and hospital readiness visibility.
 
-**Goal:** To develop a digital platform that provides real-time information on nearby hospital readiness, including bed and doctor availability, estimated arrival time, and quick pre-registration, enabling faster and more coordinated emergency medical response.
+Goal: To develop a digital platform that provides real-time information on nearby hospital readiness, including bed and doctor availability, estimated arrival time, and quick pre-registration, enabling faster and more coordinated emergency medical response.
 
-**Expected Outcome:** The system will reduce delays in emergency care by providing real-time hospital readiness information, enabling faster arrival decisions, quick pre-registration, and improved coordination between patients, ambulances, and hospitals, ultimately increasing the chances of timely and effective treatment.
+Expected Outcome: The system will reduce delays in emergency care by providing real-time hospital readiness information, enabling faster arrival decisions, quick pre-registration, and improved coordination between patients, ambulances, and hospitals, ultimately increasing the chances of timely and effective treatment.
 
 ---
 
-**Problem Statement 2: Crowd-Aware Blood Donation & Availability Coordination**
+Problem Statement 2: Crowd-Aware Blood Donation & Availability Coordination
 
-**Problem:** Blood banks and donation drives suffer from unpredictable donor turnout, mismatched blood availability, and poor visibility into upcoming shortages, causing emergency dependency on unplanned donors. A software system is needed for donor scheduling, blood availability visibility, and shortage-aware coordination.
+Problem: Blood banks and donation drives suffer from unpredictable donor turnout, mismatched blood availability, and poor visibility into upcoming shortages, causing emergency dependency on unplanned donors. A software system is needed for donor scheduling, blood availability visibility, and shortage-aware coordination.
 
-**Goal:** To build a digital system that manages blood donor scheduling, tracks real-time blood availability, and predicts potential shortages to ensure timely and well-coordinated blood donation and distribution.
+Goal: To build a digital system that manages blood donor scheduling, tracks real-time blood availability, and predicts potential shortages to ensure timely and well-coordinated blood donation and distribution.
 
-**Expected Outcome:** The system will improve blood availability planning by providing clear visibility into donor turnout and blood stock levels, reducing emergency shortages and dependency on unplanned donors. It will enable better coordination between blood banks, donors, and hospitals, ensuring timely access to required blood types and saving more lives.`,
+Expected Outcome: The system will improve blood availability planning by providing clear visibility into donor turnout and blood stock levels, reducing emergency shortages and dependency on unplanned donors. It will enable better coordination between blood banks, donors, and hospitals, ensuring timely access to required blood types and saving more lives.`,
   },
 ];
 
