@@ -14,8 +14,8 @@ import deanImage from "@/assets/dean.png";
 
 const management = [
   {
-    name: "Adv. Dr. P. Krishna Das",
-    profession: "Managing Trustee",
+    name: "Sri. M.G. Jayaram",
+    profession: "Chairman",
     image: chairmanImage,
   },
   {
